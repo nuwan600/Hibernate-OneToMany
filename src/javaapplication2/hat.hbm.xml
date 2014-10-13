@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="javaapplication2.Hat" table="HAT">
+      
+      <id column="hatid" name="hatid">
+        <generator class="increment"/>
+      </id>
+      <property column="personid" name="personid"/>
+      <property column="color" name="color"/>
+      <property column="size" name="size"/>
+  </class>
+</hibernate-mapping>
