@@ -39,7 +39,7 @@ public class SessionFactoryUtil {
     /**
 * Opens a session and will not bind it to a session context
 * @return the session
-*/
+
 public static Session openSession() {
 return sessionFactory.openSession();
 }
@@ -55,16 +55,14 @@ return sessionFactory.openSession();
 * session
 *
 * @return the session
-*/
+
 public static Session getCurrentSession() {
 return sessionFactory.getCurrentSession();
 }
-/**
-* closes the session factory
-*/
+
 public static void close(){
 if (sessionFactory != null)
 sessionFactory.close();
 }
-    
+    */
 }
